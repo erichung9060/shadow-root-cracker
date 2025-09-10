@@ -15,18 +15,9 @@
             ],
             "run_at": "document_start",
             "all_frames": true,
+            "world": "MAIN",
             "js": [
                 "shadowInject.js"
-            ]
-        }
-    ],
-    "web_accessible_resources": [
-        {
-            "resources": [
-                "injected.js"
-            ],
-            "matches": [
-                "<all_urls>"
             ]
         }
     ]
